@@ -1,0 +1,9 @@
+a {
+    color: red;
+    font-size: 15px;
+    &:hover {
+        background-color: saddlebrown;
+        height: 50px;
+        display: flex;
+    }
+}
