@@ -8,14 +8,19 @@
 
 >>  /index.html
 
->>	/styles  
->>>		/*.scss *.sass *.less *.styl *.css 
->>>		/*.scss *.sass *.less *.styl *.css 
->> /images  
+>> /images
+
 >>	/js  
 >>>		/main.js  
->>>>    /modules
 
+>>	/parts
+>>>		/header.html 
+>>>		/footer.html 
+
+>>	/styles  
+>>>		/main.scss
+
+>./.gitignore 
 >./gulpfile.js  
 >./package.json  
 >./index.html  
